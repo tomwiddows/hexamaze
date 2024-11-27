@@ -9,9 +9,12 @@ const getHexPoints = (x, y, radius) => {
   };
 
 console.log(getHexPoints(0,0,50));
+
+/*const labelHexagons = (rows, cols)*/
   
 const radius = 50;
 const hexPoints = getHexPoints(10,10,radius);
+
 const layGridPoints = (hexPoints, radius, rows, cols) => {
   const hexHeight = 1.5 * radius;
   const hexWidth = Math.sqrt(3) * radius;
@@ -40,7 +43,7 @@ gridPoints = (layGridPoints(hexPoints, radius, 3, 3));
 console.log(gridPoints);
 
 /*const drawHexLines = (gridPoints) => {
-  for (let hex = 0)
+  for (let row
 }*/
 
   /*const drawGrid = (rows, cols, radius) => {
